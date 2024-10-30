@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(232, 221, 221);
+    background-image: url('../imagens/tigre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+section {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.491);
+    width: 55vw;
+    padding-bottom: 10px;
+}
+
+section>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    letter-spacing: 0.3em;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+section>h3 {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 0.2em;
+}
+
+section>p,
+ul {
+    text-align: justify;
+    padding: 10px 6px;
+    text-indent: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.3em;
+    font-size: 2.5vw;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    list-style-position: inside;
+}
+
+
+abbr {
+    cursor: pointer;
+    color: rgb(40, 106, 199);
+    font-weight: bold;
+}
+
+#img02 {
+    background-image: url('../imagens/camaleao.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#img03 {
+    background-image: url('../imagens/colibrir.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#img04 {
+    background-image: url('../imagens/img-sapo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+footer {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.751);
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 3px 0px;
+    width: 55vw;
+}
